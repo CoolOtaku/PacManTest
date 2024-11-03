@@ -1,0 +1,25 @@
+{
+  "bundles": [
+    {
+      "name": "default",
+      "assets": []
+    },
+    {
+      "name": "game",
+      "assets": [
+        {
+          "name": "game/CONSTRUCTOR/CONSTRUCTOR.json",
+          "srcs": [
+            "game/CONSTRUCTOR/CONSTRUCTOR@1x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true,
+              "m": true
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

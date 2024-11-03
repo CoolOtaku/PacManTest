@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>PacMan</title>
+    <style>
+		  html, body
+      {
+        overflow: hidden !important;
+        height: 100% !important;
+        margin: 0;
+        padding: 0;
+        background-color: 0xffffff;
+        position: fixed;
+      }
+
+      html, body, .game
+      {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      .game
+      {
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        left: 0;
+      }
+
+      #game
+      {
+        background-color: #000000;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="game" id="game"></div>
+    <script type="module" src="./src/main.ts"></script>
+  </body>
+</html>
